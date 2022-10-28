@@ -1,0 +1,22 @@
+{
+  "name": "npmtest",
+  "version": "0.0.1",
+  "description": "just try",
+  "main": "holly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jimin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "express": "^4.17.1",
+    "firebase": "^8.9.1",
+    "formidable": "^1.2.2",
+    "mime": "^2.5.2",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "os": "^0.1.2",
+    "request-ip": "^2.1.3"
+  }
+}

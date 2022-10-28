@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE> New Document </TITLE>
+        <meta http-equiv="Content-Type" content="charset=UTF-8"/>
+    </HEAD>
+    <style>
+      input{
+      width:100px;
+      height:30px;
+      text-align: center;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #image{
+      width: 250px;
+      padding: 10px;
+      margin-left: 160px;
+      margin-top: 150px;
+      float: left;
+      border: 1px solid #bcbcbc;
+       
+      }
+ 
+
+  </style>
+    <BODY>    
+        <div id="header">
+            <h1>Drawing Graph with R</h1>
+        </div>
+
+      <div id="image">
+        <input type = "image" name="line" style="height:250px;width:250px;"src="http://210.117.128.200:8053/image_line2" onclick="movepage1()"/>
+      </div>
+
+      <div id="image">
+        <input type = "image" name="bar"  style="height:250px;width:250px;"src="http://210.117.128.200:8053/image_bar" onclick="movepage2()"/>
+      </div>
+
+      <div id="image">
+        <input type = "image" name="round"  style="height:250px;width:250px;"src="http://210.117.128.200:8053/image_round" onclick="movepage2()"/>
+      </div>
+
+      <div id="image">
+        <input type = "image" name="density"  style="height:250px;width:250px;"src="http://210.117.128.200:8053/image_density" onclick="movepage2()"/>
+      </div>
+
+        <script type = "text/javascript">
+          function movepage1(){
+            location.href = "/line";
+          }
+          function movepage2(){
+            location.href = "/bar"
+          }
+        </script>
+
+   
+
+    </BODY>
+</HTML>
+ 
+
+
+ 
